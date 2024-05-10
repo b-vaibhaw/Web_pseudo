@@ -60,11 +60,15 @@
     align-items: center;
     flex-direction: column;
 }
-/* @media (max-width: 768px) {
-    body {
-      background-attachment: scroll;
+@media (max-width: 1212px) {
+    .options-container {
+        flex-direction: column;
+        align-items: center;
     }
-} */
+    .option {
+        margin-bottom: 20px;
+        }
+}
 .quote {
     position: absolute;
     left: 15%;
