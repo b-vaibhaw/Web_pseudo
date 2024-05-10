@@ -1,0 +1,5 @@
+HTML   
+
+<div class="flex-grow">
+<input type="datetime-local" id="dateTimeInput" class="p-5 w-full bg-transparent focus:outline-none placeholder-gray-100 text-white border border-white rounded-md text-sm lg:text-md" placeholder="Select Date and Time" required="">
+</div>
