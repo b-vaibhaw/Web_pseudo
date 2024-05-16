@@ -200,19 +200,19 @@
   .body2a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: centre;
+    margin: 4%;
     height: 100vh;
   }
   .image-container {
     max-width:40%;
-    position: relative;
     overflow: hidden;
+    align-items: centre;
     margin-left: 5%;
   }
   .image-container img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 18px 18px 18px 18px;
   }
   .content-container-2a {
@@ -294,6 +294,25 @@
     border-radius: 25px 25px 25px 25px;
     /* border-end-end-radius: 25%; */
 
+  }
+
+@media screen and (max-width : 1480px) {
+    .options-container{
+      display: inline;
+    }
+    .option{
+      margin: 8px;
+    }
+    .image-container{
+      /* height:80%; */
+      align-items: center;
+      position: relative;
+      left: 0%;
+      width: 100%;
+    }
+    .discover-more{
+      width: 80%;
+    }
   }
 
   .body2b{
