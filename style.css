@@ -54,7 +54,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100dvi;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -202,7 +202,7 @@
     align-items: center;
     justify-content: centre;
     margin: 4%;
-    height: 100vh;
+    height: 100dvi;
   }
   .image-container {
     max-width:40%;
@@ -320,7 +320,7 @@
     /* align-items: center; */
     /* justify-content:center; */
     justify-content: space-between;
-    height: 100vh;
+    height: 100dvi;
     width: 100%;
   }
   .p2b{
@@ -388,7 +388,7 @@
     align-items: center;
     justify-content:center;
     justify-content: space-between;
-    height: 100vh;
+    height: 100dvi;
     width: 100%;
   }
 
@@ -405,7 +405,7 @@
     align-items:flex-start;
     justify-content: space-between;
     padding: 20px;
-    height: 100vh; 
+    height: 100dvi; 
   }
   .content-container-3a {
     /* flex: 0 0 calc(70% - 40px);
