@@ -203,6 +203,7 @@
     justify-content: centre;
     margin: 4%;
     height: 100dvi;
+    max-height: 1500px;
   }
   .image-container {
     max-width:40%;
